@@ -1121,36 +1121,3 @@ Additionally, Porto's pluggable UI's make it easy to add or remove interfaces, a
 <br>
 
 
-
-
-
-
-
-
-
-
-<a id="Implementations-Projects"></a>
-
-# Implementations
-
-> Feel free to list your implementation here.
-
-List of projects implementing the Porto architecture.
-
-- **PHP**
-	- **Laravel** 
-		- [**Apiato**](http://apiato.io/) **(By the Porto creator)** A PHP Framework for building scalable API's on top of Laravel.
-		- [**Laravel Large Project**](https://github.com/stasyanko/laravel-large-project) An example project to show how to build large projects with Porto.
-	- **Zend Expressive**
-		- [**Expressive Porto**](https://github.com/lpj145/expressive-porto) An implementation of the Porto architecture with Zend Expressive.
-- **JavaScript**
-- **Python**
-	- **Django** 
-		- [**PyPorto**](https://github.com/discoroveryx/pyporto) A design for building scalable and testable applications with Django Rest Framework.
-- **Ruby**
-- **Java**
-- **C#**
-- ...
-
-
-
