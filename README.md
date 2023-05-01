@@ -89,9 +89,6 @@ Overall, **Porto** is a powerful and flexible software architecture pattern that
 
 <br>
 
-> **Note:** **Porto** started as an experimental architecture designed to solve common problems that web developers face when building large projects. Since its inception, **Porto** has become a beloved software architecture pattern among developers, offering a powerful set of tools for building scalable, maintainable, and reusable software. Feedbacks & Contributions are much appreciated.
-
-
 
 
 
@@ -301,39 +298,56 @@ By breaking down your application into smaller, more manageable Containers, **Po
 #### Basic Containers Structure
 
 ```
-Container 1
-	├── Actions
-	├── Tasks
-	├── Models
-	└── UI
-	    ├── WEB
-	    │   ├── Routes
-	    │   ├── Controllers
-	    │   └── Views
-	    ├── API
-	    │   ├── Routes
-	    │   ├── Controllers
-	    │   └── Transformers
-	    └── CLI
-	        ├── Routes
-	        └── Commands
+Routes|──
+		|── api
+			|── module1
+				|── url1
+				|── url2
+				|── url3
+			|── module2
+				|── url1
+				|── url2
+				|── url3
+		|── web 
+			|── route 1
+			|── route 2
+			|── route 3
+			
+HTTP	
+	|── Controllers
+		|── API
+			|── ModuleController 1 
+			|── ModuleController 2
+			|── ModuleController 3
+			|──	ModuleController 4
 
-Container 2
-	├── Actions
-	├── Tasks
-	├── Models
-	└── UI
-	    ├── WEB
-	    │   ├── Routes
-	    │   ├── Controllers
-	    │   └── Views
-	    ├── API
-	    │   ├── Routes
-	    │   ├── Controllers
-	    │   └── Transformers
-	    └── CLI
-	        ├── Routes
-	        └── Commands
+			
+Modules|──
+			
+	Module1
+	    ├── ├── Events
+		├── ├── Helpers
+		├── ├── Jobs
+	    │   ├── Listeners
+	    	├── Models
+	    	├── Requests
+	    	├── Services
+	    	├── Traits
+	    	├── UseCases
+	    	├── Validations
+	    	
+	Module2
+	    ├── ├── Events
+		├── ├── Helpers
+		├── ├── Jobs
+	    │   ├── Listeners
+	    	├── Models
+	    	├── Requests
+	    	├── Services
+	    	├── Traits
+	    	├── UseCases
+	    	├── Validations
+
 ```
 
 
