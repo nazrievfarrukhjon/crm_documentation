@@ -1,15 +1,7 @@
-# Porto (Software Architectural Pattern)
+# CRM DOCUMENTATION 
+# (Porto Software Architectural Pattern implemented)
 
-![](/assets/porto-logo.png)
-
-## Welcome to Porto
-
-
-
-
-
-
-
+![](/photos/)
 
 
 - [Introduction](#Introduction)
@@ -43,12 +35,6 @@
 
 
 
-
-
-
-
-
-
 <a id="Introduction"></a>
 # Introduction
 
@@ -65,12 +51,6 @@ In addition to these foundational concepts, **Porto** also adheres to a set of w
 Overall, **Porto** is a powerful and flexible software architecture pattern that offers developers a comprehensive set of tools for building scalable, maintainable, and reusable software. Whether you are working on a small project or a large-scale enterprise application, **Porto** can help you build software that meets your needs today and in the future.
 
 
-
-
-
-
-
-
 <br>
 
 > **Note:** **Porto** started as an experimental architecture designed to solve common problems that web developers face when building large projects. Since its inception, **Porto** has become a beloved software architecture pattern among developers, offering a powerful set of tools for building scalable, maintainable, and reusable software. Feedbacks & Contributions are much appreciated.
@@ -81,14 +61,8 @@ Overall, **Porto** is a powerful and flexible software architecture pattern that
 
 
 
-
-
-
-
-
 <a id="Getting-Started"></a>
 # Getting Started
-
 
 
 
@@ -120,7 +94,7 @@ This separation of concerns also allows you to easily scale your application by 
 
 ### Visual Overview
 
-![](/assets/porto_visual_diagram.png)
+![](/photos/)
 
 Before diving deeper, let's take a moment to understand the different levels of code you will have in your codebase:
 
@@ -149,7 +123,7 @@ To better visualize the relationship between the Containers layer, Ship layer, a
 
 Containers layer (cargo containers)  >> relies on >>  Ship layer (cargo ship)  >> relies on >>  Framework (sea)
 
-![](/assets/porto_layers.png)
+![](/photos/)
 
 
 
@@ -468,7 +442,7 @@ Routes - Controllers - Requests - Actions - Tasks - Models - Views - Transformer
 <a id="Components-Interaction-Diagram"></a>
 ### 1.1) Main Components Interaction Diagram
 
-![](/assets/porto_container_interactions.png)
+![](/photos/)
 
 
 
